@@ -1,3 +1,4 @@
-1. It is a protocol that is transferring data in a slow way but surely
-2. It is a protocol that is transferring data in a fast way and might loss data along in the process
-1. Have you received boxes x, y, z?
+#!/usr/bin/env bash
+# Displays all listening TCP/UDP ports and their associated PIDs/programs
+
+sudo netstat -tunlp && sudo netstat -lxp
